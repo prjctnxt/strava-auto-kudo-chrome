@@ -1,0 +1,19 @@
+{
+  "name": "Strava auto kudo",
+  "version": "1.0",
+  "description": "Strava auto kudo",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "declarativeContent",
+    "storage",
+    "tabs",
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
